@@ -1,3 +1,7 @@
+/* We will work with array to add ,remove items 
+from the array starts and ends of array and how to
+ randomly select element of an array.*/
+
 let lunches = [];
 function addLunchToEnd(lunches, lunchItem) {
     lunches.push(lunchItem);
