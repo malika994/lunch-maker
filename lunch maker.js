@@ -60,16 +60,15 @@ function getRandomLunch(lunches) {
 }
 getRandomLunch(["Salad", "Eggs", "Cheese"]);
 
-
 // funation show Lunch Menu
 function showLunchMenu(lunches) {
+    let [l1, l2, l3, ...rest] = lunches
 
     if (lunches.length != 0) {
-        console.log(`Menu items:${lunches}`);
+        console.log(`Menu items: ${l1}, ${l2}, ${l3}`);
     }
     else {
         console.log('The menu is empty.');
     }
 }
-//showLunchMenu([]);
 showLunchMenu(["Greens", "Corns", "Beans"]);
